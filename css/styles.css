@@ -1,0 +1,147 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--primary-text-color);
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo1{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.logo2{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.nav-list{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+
+.nav-list:hover,
+.nav-info:hover,
+.nav-list:focus,
+.nav-info:focus {
+    color: var(--accent-color);
+}
+
+.nav-list:current{
+    color: rgb(255, 0, 0);
+}
+
+.nav-info{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+/* Button */
+
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--accent-color);
+}
+
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    width: 128px;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--accent-color);
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Section title */
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+/* Особенности */
+
+.features-list .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.features-list .text {
+    font-size: 14px;
+    line-height: 1.171;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* Наша команда */
+
+.team-list .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.team-list .text {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* Подвал */
+
+.footer-address:hover,
+.footer-mail:hover,
+.footer-tel:hover,
+.footer-address:focus,
+.footer-mail:focus,
+.footer-tel:focus {
+    color: var(--accent-color);
+}
+
+address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
