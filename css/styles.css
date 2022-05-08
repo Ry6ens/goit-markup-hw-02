@@ -13,7 +13,9 @@ body {
 }
 
 a {
+    font-style: normal;
     text-decoration: none;
+    color: var(--primary-text-color);
 }
 
 ul {
@@ -43,11 +45,16 @@ button  {
     color: var(--accent-color);
 }
 
-.nav-list {
+.nav-list,
+.nav-info {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+}
+
+.nav-info {
+    color: var(--secondary-text-color)
 }
 
 .nav-link:hover,
@@ -107,12 +114,36 @@ button  {
     letter-spacing: 0.03em;
 }
 
+/* Portfolio */
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color)
+}
+
 /* Footer */
 
 address {
+   background-color: #2F303A;
+}
+
+.footer-address {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-address:hover,
