@@ -1,3 +1,125 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+
+}
+
 body {
     font-family: Roboto, sans-serif;
+
+    background-color: #fff;
+    color: var(--primary-text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none
+}
+
+button  {
+    cursor: pointer;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em; 
+}
+
+.logo .logo-color {
+    color: var(--accent-color);
+}
+
+.nav-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-info:hover,
+.nav-info:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+/* Особенности */
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-text {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    
+    color: var(--secondary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+/* Наша команда */
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.team-speciality {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+/* Footer */
+
+address {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.footer-address:hover,
+.footer-mail:hover,
+.footer-tel:hover,
+.footer-address:focus,
+.footer-mail:focus,
+.footer-tel:focus {
+    color: var(--accent-color);
 }
