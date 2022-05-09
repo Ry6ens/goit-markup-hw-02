@@ -49,7 +49,7 @@ body {
     color: var(--primary-text-color);
 }
 
-.nav-link:current {
+.current {
     color: var(--accent-color)
 }
 
@@ -124,11 +124,28 @@ body {
 
 /* Filter */
 
+.filter {
+    list-style: none;
+}
+
 .filter-button {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+
     cursor: pointer;
 }
 
+.active {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
 /* Portfolio */
+
+.portfolio {
+    list-style: none;
+}
 
 .portfolio-title {
     font-size: 18px;
@@ -136,11 +153,9 @@ body {
     letter-spacing: 0.06em;
 }
 
-.portfolio-name {
-    font-weight: 400;
+.portfolio-description {
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
 
     color: var(--secondary-text-color)
 }
@@ -151,23 +166,27 @@ body {
    background-color: #2F303A;
 }
 
-.footer-list {
+.footer-contacts {
     list-style: none;
 }
 
-.footer-address {
+.footer-address,
+.footer-mail,
+.footer-tel {
+    font-style: normal;
     line-height: 1.71;
     text-decoration: none;
 
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-address:hover,
+.footer-address {
+    color: var(--primary-white-color);
+}
+
 .footer-mail:hover,
 .footer-tel:hover,
-.footer-address:focus,
 .footer-mail:focus,
 .footer-tel:focus {
     color: var(--accent-color);
 }
-
