@@ -17,6 +17,14 @@ body {
     color: var(--primary-text-color);
 }
 
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
 .section-title {
     font-size: 36px;
     line-height: 1.16;
@@ -44,7 +52,6 @@ body {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 
     color: var(--primary-text-color);
 }
@@ -60,9 +67,7 @@ body {
 .nav-link:hover,
 .nav-link:focus,
 .nav-contact:hover,
-.nav-contact:focus,
-.filter-button:hover,
-.filter-button:focus {
+.nav-contact:focus {
     color: var(--accent-color);
 }
 
@@ -84,30 +89,19 @@ body {
 
 /* Особенности */
 
-.features-list {
-    list-style: none;
-}
-
 .features-title {
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 
 .features-text {
-    line-height: 24px;
+    line-height: 1.71;
     
     color: var(--secondary-text-color);
 }
 
 /* Чем мы занимаемся */
-
-.team-list {
-    list-style: none;
-}
-
-.description-list {
-    list-style: none;
-}
 
 /* Наша команда */
 
@@ -120,20 +114,26 @@ body {
 .team-description {
     font-size: 16px;
     line-height: 1.19;
+
+    color:var(--secondary-text-color)
 }
 
 /* Filter */
 
-.filter {
-    list-style: none;
-}
-
 .filter-button {
+    font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
 
     cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }
 
 .active {
@@ -142,10 +142,6 @@ body {
 }
 
 /* Portfolio */
-
-.portfolio {
-    list-style: none;
-}
 
 .portfolio-title {
     font-size: 18px;
@@ -163,11 +159,11 @@ body {
 /* Footer */
 
 .footer {
-   background-color: #2F303A;
+    background-color: #2F303A;
 }
 
-.footer-contacts {
-    list-style: none;
+.footer .logo {
+    color: var(--primary-white-color);
 }
 
 .footer-address,
